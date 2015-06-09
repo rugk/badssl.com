@@ -5,9 +5,17 @@
   <link rel="shortcut icon" href="/icons/favicon-yellow.ico"/>
   <link rel="apple-touch-icon" href="/icon-yellow.png"/>
   <style>
+    html {
+      background: rgb(246, 207, 47);
+      background-image: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 100px,
+        rgb(255, 0, 0) 100px,
+        rgb(255, 0, 0) 200px
+      );
+    }
     html, body {
-      background: red;
-
       margin: 0;
       padding: 0;
 
@@ -30,7 +38,8 @@
       text-shadow:
         0 0 20px rgba(255, 255, 255, 0.5),
         0 0 40px rgba(255, 255, 255, 0.5),
-        0 0 60px rgba(255, 255, 255, 0.5);
+        0 0 60px rgba(255, 255, 255, 0.5),
+        0 0 100px rgba(0, 0, 0, 0.75);
     }
     img {
       width: 60vw;
